@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Awesome Form</title>
+        <link href="{{ url_for('static', path='/styles.css') }}" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Super Realistic Form</h1>
+        <form method="POST" enctype="multipart/form-data">
+            <label for="name">name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="category">category:</label><br>
+            <input type="category" id="category" name="category"><br>
+            <input type="file" name="file"><br>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
